@@ -1,12 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import Header from '@/components/Header';
+import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
+import Papers from '@/components/Papers';
+import Blogs from '@/components/Blogs';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen font-mono text-black bg-white p-4 md:p-8 lg:p-12 max-w-3xl mx-auto">
+      <Header />
+      <Experience />
+      <Projects />
+      <Papers />
+      <Blogs />
     </div>
   );
 };
