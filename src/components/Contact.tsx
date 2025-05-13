@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
 const Contact = () => {
   return (
     <section className="mb-12">
       <h2 className="text-2xl font-bold mb-4">contact</h2>
-      <div className="flex space-x-4">
+      <div className="flex flex-wrap gap-4">
         <a 
           href="https://www.linkedin.com/in/aryaman-jain-/" 
           target="_blank" 
@@ -33,6 +33,13 @@ const Contact = () => {
         >
           <Twitter size={20} />
           <span>X</span>
+        </a>
+        <a 
+          href="mailto:aryamanjain09@gmail.com" 
+          className="flex items-center space-x-2 hover:underline"
+        >
+          <Mail size={20} />
+          <span>aryamanjain09@gmail.com</span>
         </a>
       </div>
     </section>
