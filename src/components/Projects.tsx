@@ -9,14 +9,14 @@ const Projects = () => {
       
       <ul className="list-disc pl-5">
         <li className="mb-3">
-          <Link to="/serious-projects" className="underline">
+          <Link to="/AIprojects" className="underline">
             AI projects
           </Link>
           {" : all my AI, LLM, and agentic AI projects"}
         </li>
         
         <li>
-          <Link to="/fun-projects" className="underline">
+          <Link to="/DS&MLprojects" className="underline">
             data science and ML projects
           </Link>
           {" : all my DS & ML projects"}

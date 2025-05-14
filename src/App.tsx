@@ -8,10 +8,6 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import SeriousProjects from "./pages/SeriousProjects";
 import FunProjects from "./pages/FunProjects";
-import TechnicalBlogs from "./pages/TechnicalBlogs";
-import Guides from "./pages/Guides";
-import DataPoisoningPaper from "./pages/DataPoisoningPaper";
-import PapersDaily from "./pages/PapersDaily";
 
 const queryClient = new QueryClient();
 
@@ -23,12 +19,8 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/serious-projects" element={<SeriousProjects />} />
-          <Route path="/fun-projects" element={<FunProjects />} />
-          <Route path="/technical-blogs" element={<TechnicalBlogs />} />
-          <Route path="/guides" element={<Guides />} />
-          <Route path="/papers/data-poisoning" element={<DataPoisoningPaper />} />
-          <Route path="/papers-daily" element={<PapersDaily />} />
+          <Route path="/AIprojects" element={<SeriousProjects />} />
+          <Route path="/DS&MLprojects" element={<FunProjects />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
