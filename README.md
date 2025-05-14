@@ -8,4 +8,4 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-Built using lovable.dev
+Used lovable.dev for the build (:
