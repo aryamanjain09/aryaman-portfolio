@@ -9,7 +9,7 @@ const Resume = () => {
           href="https://drive.google.com/file/d/13rcIzchm-cUxAknlNjyhVCLDSEF9ofm_/view?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="hover:underline"
+          className="underline"
         >
           my resume
         </a>
