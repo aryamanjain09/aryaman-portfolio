@@ -6,7 +6,7 @@ const Resume = () => {
     <section className="mb-12">
       <h2 className="text-2xl font-bold mb-4">
         <a 
-          href="https://drive.google.com/file/d/1Jb7Vn4CMppKL6LSDkGKE0aJogCV63Y3z/view?usp=drive_link" 
+          href="https://drive.google.com/file/d/13rcIzchm-cUxAknlNjyhVCLDSEF9ofm_/view?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer"
           className="hover:underline"

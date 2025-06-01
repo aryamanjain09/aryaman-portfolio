@@ -6,7 +6,7 @@ const Papers = () => {
     <section className="mb-12">
       <h2 className="text-2xl font-bold mb-4">papers</h2>
       <ul className="list-disc pl-5">
-        <li>Currently awaiting acceptance notification for a paper in the LLM fine tuning space.</li>
+        <li>Beyond GRPO: Introducing Adaptive Bias-Aware Policy Optimization for Enhanced Mathematical Reasoning in Language Models [Accepted in ICCCNet 2025]</li>
       </ul>
     </section>
   );
